@@ -9,7 +9,7 @@
 	@echo   -----================================================================================------
 	@echo You need to choose you Windows language:
 	@echo 1. Russian
-	@echo 2. Deutch
+	@echo 2. Deutsch
 set /P lsys="Enter Windows Language number: "
 netsh advfirewall import %~dp0firewall_rules_%lsys%.wfw
 netsh advfirewall reset
